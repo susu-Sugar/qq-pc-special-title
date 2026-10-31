@@ -1,0 +1,19 @@
+{
+  "manifest_version": 4,
+  "type": "extension",
+  "name": "快捷设置专属头衔",
+  "slug": "QuickSpecialTitle",
+  "description": "在 QQ 右键菜单中快捷设置群成员专属头衔",
+  "version": "0.1.0",
+  "authors": [
+    {
+      "name": "Local"
+    }
+  ],
+  "platform": ["win32"],
+  "injects": {
+    "renderer": "./renderer.js",
+    "main": "./main.cjs",
+    "preload": "./preload.cjs"
+  }
+}

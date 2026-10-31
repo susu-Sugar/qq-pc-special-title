@@ -1,0 +1,21 @@
+# ===== 安装介质与二进制 =====
+*.zip
+*.exe
+*.dll
+*.orig
+*.log
+
+# ===== 本机调试脚本（根目录历史探针，不进仓库）=====
+/probe*.js
+/probe-client.js
+
+# ===== 框架解包 / 补丁 / 备份目录 =====
+framework-staging/
+patch-staging/
+backup/
+
+# ===== 早期研究资料与真实运行数据（含真实群成员名单）=====
+napcat-route-a/
+
+# ===== 依赖 =====
+node_modules/
